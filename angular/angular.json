@@ -7,7 +7,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "EmployeeManagement": {
+    "Assigment": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -21,7 +21,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/EmployeeManagement",
+            "outputPath": "dist/Assigment",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -151,10 +151,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "EmployeeManagement:build:production"
+              "buildTarget": "Assigment:build:production"
             },
             "development": {
-              "buildTarget": "EmployeeManagement:build:development"
+              "buildTarget": "Assigment:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -162,7 +162,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "EmployeeManagement:build"
+            "buildTarget": "Assigment:build"
           }
         },
         "test": {

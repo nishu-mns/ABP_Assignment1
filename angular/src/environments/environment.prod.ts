@@ -6,21 +6,21 @@ export const environment = {
   production: true,
   application: {
     baseUrl,
-    name: 'EmployeeManagement',
+    name: 'Assigment',
     logoUrl: '',
   },
   oAuthConfig: {
-    issuer: 'https://localhost:44337/',
+    issuer: 'https://localhost:44324/',
     redirectUri: baseUrl,
-    clientId: 'EmployeeManagement_App',
+    clientId: 'Assigment_App',
     responseType: 'code',
-    scope: 'offline_access EmployeeManagement',
+    scope: 'offline_access Assigment',
     requireHttps: true
   },
   apis: {
     default: {
-      url: 'https://localhost:44337',
-      rootNamespace: 'EmployeeManagement',
+      url: 'https://localhost:44324',
+      rootNamespace: 'Assigment',
     },
   },
 } as Environment;
